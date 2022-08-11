@@ -1,3 +1,7 @@
+section {
+    padding-bottom: 3px;
+}
+
 li {
     margin-bottom: 10px;
 }
@@ -16,5 +20,5 @@ dd {
 footer {
     position: relative;
     top: 2em;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
