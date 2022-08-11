@@ -6,6 +6,12 @@ section {
     padding-bottom: 3px;
 }
 
+hr {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    color: #a0a0a0;
+}
+
 li {
     margin-bottom: 10px;
 }
@@ -16,13 +22,19 @@ dd {
 }
 
 .command-name {
+    position: relative;
     font-size: 120%;
     background-color: #ededf0;
-    background-size: 120%;
+    padding-left: 12px;
 }
 
 footer {
     position: relative;
-    top: 2em;
-    padding-bottom: 5px;
+    top: 10px;
+    padding-bottom: 1px;
+    margin: -8px;
+}
+
+footer>p {
+    margin-left: 8px
 }
