@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>ひろゆきBotの使い方</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7QJTBXLBKN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7QJTBXLBKN');
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1><u>ひろゆきBotの使い方</u></h1>
+    </header>
+
+    <main>
+        <section>
+            <h2><u>一般的な使い方</u></h2>
+            <ol>
+                <li><a href="https://discord.com/api/oauth2/authorize?client_id=1005468573545799753&permissions=274881087552&scope=bot%20applications.commands">Botを招待します。</a></li>
+                <li>
+                    <p>「ひろゆき」という文字を含むチャンネルやスレッドを作成します。</p>
+                    <p>例) ひろゆきとディベート, ひろゆきと対談</p>
+                </li>
+                <li>そこで話しましょう。</li>
+                <li>他にも、いくつかの単語に対して反応します</li>
+                <li>VCに入った状態で謝罪するとお叱りを受けることができます</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2><u>コマンド</u></h2>
+            <p style="padding-left: 20px">コマンドは、スラッシュコマンドを使ってください。</p>
+
+            <h3><u>一般コマンド</u></h3>
+            <dl>
+                <dt>/help</dt>
+                <dd>
+                    <p>ヘルプを表示します。</p>
+                </dd>
+
+                <dt>/invite</dt>
+                <dd>
+                    <p>Botの招待リンクを表示。</p>
+                </dd>
+            </dl>
+
+            <h3><u>設定コマンド</u></h3>
+            <dl>
+                <dt>/hiroyuki all [on / off]</dt>
+                <dd>
+                    <p>onにすることで、「ひろゆき」という文字が入っていないチャンネルでも、1/18の確率で反応するようになる。</p>
+                    <p>offにすることで解除できる。</p>
+                </dd>
+
+                <dt>/hiroyuki channel [チャンネル] [on / off]</dt>
+                <dd>
+                    <p>上の /hiroyuki all コマンドと違い、チャンネルごとにオンオフを設定できる。</p>
+                    <p><a href="./2.html">※上記二つのコマンドの詳しい説明を別ページに記載しました</a></p>
+                </dd>
+
+                <dt>/twitter on [チャンネル]</dt>
+                <dd>
+                    <p>指定したチャンネルでひろゆきのツイートをお知らせします。</p>
+                </dd>
+
+                <dt>/twitter off</dt>
+                <dd>
+                    <p>上の設定を解除するだけ。</p>
+                </dd>
+            </dl>
+
+            <h3><u>遊びコマンド</u></h3>
+            <dl>
+                <dt>/retranslate [文章] ([言語の数])</dt>
+                <dd>
+                    <p>日本語→指定された数の言語(デフォルト100)→日本語 で再翻訳する。</p>
+                </dd>
+
+                <dt>/pi [桁数]</dt>
+                <dd>
+                    <p>円周率を指定した桁数分送るだけ。</p>
+                </dd>
+
+                <dt>/sqrt [数字] [桁数]</dt>
+                <dd>
+                    <p>sqrtとは平方根のこと。指定された数字の平方根を送信する。</p>
+                    <p>無理数の場合は、指定された桁数分だけ。</p>
+                </dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>サポートサーバー: <a href="https://discord.gg/rBQePfqmNc">https://discord.gg/rBQePfqmNc</a></p>
+        <p>Nicholas Kritoris#9000</p>
+    </footer>
+
+</body>
+
+</html>
